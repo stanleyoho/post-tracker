@@ -1,0 +1,35 @@
+{
+  "name": "post-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-cookies": "ts-node src/tools/run_refresh.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.0.3",
+    "axios": "^1.13.2",
+    "better-sqlite3": "^12.5.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "nodemailer": "^7.0.12",
+    "puppeteer": "^24.34.0",
+    "rss-parser": "^3.13.0",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node-telegram-bot-api": "^0.64.13",
+    "@types/nodemailer": "^7.0.4"
+  }
+}
